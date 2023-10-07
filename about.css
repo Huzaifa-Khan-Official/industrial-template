@@ -456,6 +456,22 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .ceoMessageHeading h2 {
+        font-size: 36px;
+    }
+    .ceoMessageCol2 {
+        margin: 20px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 230px) {
+    .ceoMessageHeading h2 {
+        font-size: 30px;
+    }
+}
+
 /* contactUs */
 .contactUs {
     width: 100%;
