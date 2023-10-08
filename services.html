@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="services.css">
+  <title>Services - Kam International</title>
+</head>
+
+<body>
+  <!-- cover -->
+  <div class="coverDiv">
+    <div class="coverDivBlur"></div>
+    <div class="headerLinks">
+      <div class="linksDiv">
+        <div class="facebookLink">
+          <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff"></i>
+        </div>
+        <div class="tiwtterLink">
+          <i class="fa-brands fa-square-x-twitter fa-lg" style="color: #ffffff"></i>
+        </div>
+        <div class="youtubeLink">
+          <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff"></i>
+        </div>
+        <div class="instagramLink">
+          <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"></i>
+        </div>
+      </div>
+      <div class="searchDiv">
+        <div class="searchIcon">
+          <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff"></i>
+        </div>
+      </div>
+    </div>
+    <div class="navDiv">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <div class="navbarLogo">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt="" /></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./about.html">
+                  <div class="navcontent">
+                    About Us
+                    <i class="fa-solid fa-angle-down" style="color: #ffffff"></i>
+                  </div>
+                  <span id="line1"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="noBorder">
+                    <h3>About Us</h3>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#overview">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Overview</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#vision">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Vision</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#history">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> History</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#ceoMessage">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> CEO Message</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">
+                  <div class="navcontent">
+                    Products & Services
+                    <i class="fa-solid fa-angle-down" style="color: #ffffff"></i>
+                  </div>
+                  <span id="line1"></span>
+                </a>
+                <ul class="dropdown-menu PAndSul">
+                  <ul class="dropdown-menu1">
+                    <li class="noBorder">
+                      <h3><a href="./products.html">Products</a></h3>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#bedding">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Bedding</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#denim">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Denim</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#fabric">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Fabric</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#kitchen">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Kitchen</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#window">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Window</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#bath">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Bath</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="dropdown-menu2">
+                    <li class="noBorder">
+                      <h3><a href="./services.html">Services</a></h3>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#ginning">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Ginning</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#spinning">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Spinning</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#weaving">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Weaving</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#processing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Processing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#dyeing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Dyeing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#printing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Printing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#finishing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Finishing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#stitching">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Stitching</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#packing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Packing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Sustainability
+                  <span id="line1"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Certification
+                  <span id="line1"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Design Library
+                  <span id="line1"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us
+                  <span id="line1"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="coverContent">
+      <div class="coverHeading">
+        <h1>Services</h1>
+        <div class="coverHeadingH2">
+          <h2>WE PROVIDE THE BEST SERVICES TO OUR CUSTOMERS.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end cover -->
+
+  <!-- ginning -->
+  <div class="containerDiv mt-4" id="ginning">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>ginning</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              Cotton ginning in Pakistan is one of the major cottage industries in Pakistan. It is a one
+              trade/processing step between the cotton farmers and the spinners. Basically, a ginning unit is supposed
+              to procure the raw Phutti and process the produce to separate lint from cotton seed. Mekotex established
+              its first cotton ginning unit in district Lodhran, Punjab. in 2011. Mekotex established its second cotton
+              ginning unit in 2015, which is also located in Lodhran in 2015. This unit comprises of, state of the art
+              imported ginning machinery with lint cleaners. It is one of a kind in the whole country. We have been
+              ginning on average 50000-60000 bales per year since 2011. Mekotex ginning units have been actively
+              involved with all sorts of sustainable cotton production initiatives, most of our ginning production has
+              been BCI (better cotton initiative) compliant since 2012. We have just started working with cotton connect
+              (cotton connect is the implementing partner for Primark’s sustainable cotton production initiative to
+              produce REEL cotton). We will be producing 20000-25000 bales of REEL cotton from now onwards every year
+              with the cooperation of cotton connect.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/ginningImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end ginning -->
+  <!-- spinning -->
+  <div class="containerDiv mt-4" id="spinning">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/spinningImg.jpg" alt="" />
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>spinning</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              Mekotex has been in Textile yarn Business for over 3 Decades. The spinning mills are equipped with
+              state-of-the-art machinery. The quality department is fully equipped with latest testing equipment from
+              USTER to test every step of the spinning process to ensure high quality and consistency. The yarn is
+              produced for export, in-house consumption and the domestic/local industry. Mekotex spinning division is
+              installed with 107,136 spindles to produce yarn count range from Ne 6 ~ Ne 100. The ring frames are
+              installed with additional specialization to produce core spun Lycra, slub lycra, compact, cotton/manmade
+              blended yarn. In Open End department it is equipped with 1968 rotors with latest ACO 9 machines, fully
+              capable of producing plain and slub yarn with a count range from Ne 6 ~ Ne 30. Overall Mekotex Spinning is
+              capable of producing a maximum of 112 Tons of yarn per day depending upon the yarn counts being spun.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end spinning -->
+  <!-- weaving -->
+  <div class="containerDiv mt-4" id="weaving">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>weaving</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              Kam international has the expertise to make the finest quality of fabric. We are dealing with the local
+              market and Export market as well with the very wide range of fabrication which includes many qualities and
+              techniques in Dobby as well as in Jacquard. Our Finest Quality is T-750 Sateen. Moreover, we produce
+              approximately 3.3 million meter per month. We have Different type of looms which includes 268 Air Jet
+              which has 14 frames with the width capability from 190 cm to 380 cm per month production is 2.2 Million
+              meter, 18 Jacquards we are currently working on maximum Eight Color fabric width from 190 cm to 380
+              Jacquard machine has the capacity to produce 0.1 Million Meter per month. We do have 120 Sulzer which has
+              the capacity of 0.45 Million Meter per month, 68 Rapier with 14 frames the maximum width that we can
+              achieve is 190 cm to 220cm, per month production of this machine is 0.55 Million Meters. We are experts to
+              work as per the customer requirement and provided time frame.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/weavingImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end weaving -->
+  <!-- processing -->
+  <div class="containerDiv mt-4" id="processing">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/processingImg.jpg" alt="" />
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>processing</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              Kam international’s processing, printing & Dyeing department were established in 1979. Our depertments consist of the latest technologies, machines, equipment & top-quality chemicals in the processing unit. Kam International has the capability to perform the unique process of converting textile fiber into yarn, fabric and then into product printed or dyes. We hired a qualified management team and professional staff with a standardized working system. Kam International keeps on working to innovate new ideas and to deliver the best quality of products to fulfill the requirements of our loyal and valuable customers.
+            </p>
+            <p>Kam International processing unit includes Dyeing Machines, Printing Machines, Curing machines, Steaming, washing, Finishing, Calendar and Sanfor Machine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end processing -->
+  <!-- dyeing -->
+  <div class="containerDiv mt-4" id="dyeing">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>dyeing</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              As the vertical Unit, we have our own inhouse well equipped Dyeing Department. Highly qualified professionals with the vast knowledge and experience of textile Dyeing; we have the Dyeing Capacity of 12 to 15 lac meter per month. With the help of our fully computerized high temperature jet-dyeing machine for dyeing cotton as well as all the synthetic fabrics we can dye the fabric with all three dyeing techniques; Pigment, Reactive and Disperse dyeing.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/dyeingImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end dyeing -->
+  <!-- printing -->
+  <div class="containerDiv mt-4" id="printing">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/printingImg.jpg" alt="" />
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>printing</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              Fabrics are printed with design-patterns and beautiful colors by using variety of techniques and digital equipment. It is the process of transferring pattern, color, decoration or motif of one or more combinations of colors in any one variety of techniques to fabric. Kam International has a versatile printing department with complete range of digital-printing, design-studio, and rotary printing machines. We have the total capacity of digital-printing around 1 Million meters per month.
+            </p>
+            <p>Kam International sells printed designs and fabrics to local and international brands on demand and these design prints are light-weight and bottom-weight fabrics. We also have a host of Lario featured technical innovations, including bold solutions such as positioning the printing carriage hanging on the printing bridge. This solutions allows for high-speed, accuracy and total system stability. Lario is now the fastest scanning machine in the world with printing capacity of 3.2 meters per width with the help of new inline coating system (Chemical).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end printing -->
+  <!-- finishing -->
+  <div class="containerDiv mt-4" id="finishing">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>finishing</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              The latest hydro-extract technology helps us to remove moisture from dyed fabrics, computerized drying machine for instant drying. We also have an automated machine for finishing which gives the fabric a softer feel and improves its hand-feel with the help of our advanced high-tech machinery and guidance of the chemicals by our highly qualified team members. Our experts always cross check the quality control before forwarding the product towards the next stage.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/finishingImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end finishing -->
+  <!-- stitching -->
+  <div class="containerDiv mt-4" id="stitching">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/stichingImg.png" alt="" />
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>stitching</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              Stitching or sewing is the process of using a thread and needle to connect fabric together or attach them to fabric surfaces. Stitching is the simple process whereby fabrics are being mold into a particular shaped or fashioned clothing with the help of different sewing techniques. Whereas, our quality control and quality assurance department always ensures and cross checks whether the developed product is fulfilling the customers’ requirements. Stitching itself is a highly specialized or fully functional process, which requires extra care and attention, to form accurate results. We have high-speed with perfect accuracy stitching machines, and highly-qualified team members that convert the fabrics into different shapes and sizes varying requirements of end users across diverse markets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end stitching -->
+  <!-- packing -->
+  <div class="containerDiv mt-4" id="packing">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 containerDivCol2 contentDiv">
+        <div class="containerDivContent w-100">
+          <div class="containerDivHeading">
+            <h2>packing</h2>
+          </div>
+          <div class="containerDivPara mt-4">
+            <p>
+              Kam International has a huge department of Packaging, where our latest technology packaging equipment provides Cone size up to 8 lbs. Net weight. We also have a variety of packaging sources which fulfill our customer needs. Our packaging cartons are strongly waterproof and are also environment friendly. We also provide shrink-wrapped pallet packing for the ease and convenience to be handled by fork lifter trucks.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+        <div class="container containerDivImg mt-5 mb-5">
+          <img src="./assets/packingImg.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end packing -->
+  <!-- contactUs -->
+  <div class="contactUsParent">
+    <div class="contactUsDiv">
+      <div class="contactUs">
+        <div class="contactNoneDiv">
+          <div class="contactUsPara">
+            <p>Don't forget to subscribe for the latest news and updates</p>
+          </div>
+          <div class="emailInputDiv">
+            <input type="email" placeholder="Your email address" />
+          </div>
+          <div class="subscribeDiv">
+            <button>Subscribe</button>
+          </div>
+        </div>
+        <div class="contactUsLinks">
+          <div class="contactFacebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="contactTwitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+          <div class="contactYoutube">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="contactInstagram">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contactUs -->
+  <!-- footer -->
+  <div class="footerParent">
+    <div class="footerDiv">
+      <div class="footerRow">
+        <div class="footerLogoDiv">
+          <div class="footerLogo">
+            <img src="./assets/footerLogo.png" alt="" />
+          </div>
+          <div class="footerLogoContent">
+            <div class="copyrights">
+              <p>
+                <i class="fa-regular fa-copyright"></i> 2020 - Kam
+                International
+              </p>
+              <p>
+                Designed By:
+                <a href="https://www.github.com/Huzaifa-Khan-Official">Huzaifa Khan</a>
+              </p>
+              <div class="footerLogoLinks">
+                <div class="contactFacebook">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="contactTwitter">
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="contactYoutube">
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="contactInstagram">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footerAboutDiv">
+          <div class="footerAbout">
+            <h5>About</h5>
+            <p>
+              To deliver the most favorable worth to our entire stake
+              controller by not merely being the pioneers in an inventive
+              expertise, but also by making sure that we play our
+              responsibility in the reasonably priced, social & environmental
+              betterment of the region.
+            </p>
+          </div>
+        </div>
+        <div class="footerUlDiv">
+          <div class="footerUl">
+            <ul>
+              <li><a href="./about.html" id="footerLIAbout">About</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="#">Certification</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer -->
+  <!-- javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- end javascript -->
+</body>
+
+</html>

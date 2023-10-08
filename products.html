@@ -1,627 +1,560 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="products.css" />
-    <title>Products - Kam Internatioal</title>
-  </head>
-  <body>
-    <!-- cover -->
-    <div class="coverDiv">
-      <div class="coverDivBlur"></div>
-      <div class="headerLinks">
-        <div class="linksDiv">
-          <div class="facebookLink">
-            <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff"></i>
-          </div>
-          <div class="tiwtterLink">
-            <i
-              class="fa-brands fa-square-x-twitter fa-lg"
-              style="color: #ffffff"
-            ></i>
-          </div>
-          <div class="youtubeLink">
-            <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff"></i>
-          </div>
-          <div class="instagramLink">
-            <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"></i>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="products.css" />
+  <title>Products - Kam Internatioal</title>
+</head>
+
+<body>
+  <!-- cover -->
+  <div class="coverDiv">
+    <div class="coverDivBlur"></div>
+    <div class="headerLinks">
+      <div class="linksDiv">
+        <div class="facebookLink">
+          <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff"></i>
         </div>
-        <div class="searchDiv">
-          <div class="searchIcon">
-            <i
-              class="fa-solid fa-magnifying-glass fa-lg"
-              style="color: #ffffff"
-            ></i>
-          </div>
+        <div class="tiwtterLink">
+          <i class="fa-brands fa-square-x-twitter fa-lg" style="color: #ffffff"></i>
+        </div>
+        <div class="youtubeLink">
+          <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff"></i>
+        </div>
+        <div class="instagramLink">
+          <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"></i>
         </div>
       </div>
-      <div class="navDiv">
-        <nav
-          class="navbar navbar-expand-lg bg-body-tertiary"
-          data-bs-theme="dark"
-        >
-          <div class="container-fluid">
-            <div class="navbarLogo">
-              <a class="navbar-brand" href="./index.html"
-                ><img src="./assets/logo.png" alt=""
-              /></a>
-            </div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="./about.html">
-                    <div class="navcontent">
-                      About Us
-                      <i
-                        class="fa-solid fa-angle-down"
-                        style="color: #ffffff"
-                      ></i>
-                    </div>
-                    <span id="line1"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li class="noBorder">
-                      <h3>About Us</h3>
-                    </li>
-                    <li class="dropdownLi">
-                      <a class="dropdownItem" href="./about.html#overview"
-                        ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Overview</div>
-                        <span id="line2"></span>
-                      </a>
-                    </li>
-                    <li class="dropdownLi">
-                      <a class="dropdownItem" href="./about.html#vision"
-                        ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Vision</div>
-                        <span id="line2"></span>
-                      </a>
-                    </li>
-                    <li class="dropdownLi">
-                      <a class="dropdownItem" href="./about.html#history"
-                        ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> History</div>
-                        <span id="line2"></span>
-                      </a>
-                    </li>
-                    <li class="dropdownLi">
-                      <a class="dropdownItem" href="./about.html#ceoMessage"
-                        ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> CEO Message</div>
-                        <span id="line2"></span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#">
-                    <div class="navcontent">
-                      Products & Services
-                      <i
-                        class="fa-solid fa-angle-down"
-                        style="color: #ffffff"
-                      ></i>
-                    </div>
-                    <span id="line1"></span>
-                  </a>
-                  <ul class="dropdown-menu PAndSul">
-                    <ul class="dropdown-menu1">
-                      <li class="noBorder">
-                        <h3><a href="./products.html">Products</a></h3>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#bedding"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Bedding</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#denim"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Denim</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#fabric"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Fabric</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#kitchen"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Kitchen</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#window"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Window</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#bath"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Bath</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                    </ul>
-                    <ul class="dropdown-menu2">
-                      <li class="noBorder">
-                        <h3>Services</h3>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Action</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Another action</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                      <li class="dropdownLi">
-                        <a class="dropdownItem" href="#"
-                          ><div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Something else here</div>
-                          <span id="line2"></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#"
-                    >Sustainability
-                    <span id="line1"></span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"
-                    >Certification
-                    <span id="line1"></span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"
-                    >Design Library
-                    <span id="line1"></span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"
-                    >Contact Us
-                    <span id="line1"></span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <div class="coverContent">
-        <div class="coverHeading">
-          <h1>Product</h1>
-          <div class="coverHeadingH2">
-            <h2>KAM INTERNATIONAL PRODUCES THE BEST QUALITY PRODUCTS.</h2>
-          </div>
+      <div class="searchDiv">
+        <div class="searchIcon">
+          <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff"></i>
         </div>
       </div>
     </div>
-    <!-- end cover -->
-    <!-- bedding -->
-    <div class="container mt-5">
-      <div class="bedding" id="bedding">
-        <div class="row">
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv"
-          >
-            <div class="beddingImg mt-5 mb-5">
-              <div
-                id="carouselExampleSlidesOnly"
-                class="carousel slide"
-                data-bs-ride="carousel"
-                data-bs-touch = "true"
-                data-bs-interval = "3000"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="./assets/beddingImg1.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
+    <div class="navDiv">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <div class="navbarLogo">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt="" /></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./about.html">
+                  <div class="navcontent">
+                    About Us
+                    <i class="fa-solid fa-angle-down" style="color: #ffffff"></i>
                   </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/beddingImg2.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/beddingImg3.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 beddingCol2 contentDiv"
-          >
-            <div class="beddingContent w-100 pb-5">
-              <div class="beddingHeading">
-                <h2>Bedding</h2>
-              </div>
-              <div class="beddingPara mt-4">
-                <p>
-                  We specialize in manufacturing fully embellished and
-                  custom-built bedding sets for retailers and end consumers. We
-                  produce a wide range of fabric including 100% cotton fabric,
-                  CVC, microfiber, cotton blends, 100% poly textures, cotton
-                  linen, and digital-design fabrics. We have the power of market
-                  intelligence through which we mold our creative ideas into the
-                  top-trending design.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end bedding -->
-    <!-- denim -->
-    <div class="container mt-4">
-      <div class="denim" id="denim">
-        <div class="row">
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 denimCol2 contentDiv"
-          >
-            <div class="denimContent w-100 pb-5">
-              <div class="denimHeading">
-                <h2>Denim</h2>
-              </div>
-              <div class="denimPara mt-4">
-                <p>
-                  We specialize in manufacturing fully embellished and
-                  custom-built denim sets for retailers and end consumers. We
-                  produce a wide range of fabric including 100% cotton fabric,
-                  CVC, microfiber, cotton blends, 100% poly textures, cotton
-                  linen, and digital-design fabrics. We have the power of market
-                  intelligence through which we mold our creative ideas into the
-                  top-trending design.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv"
-          >
-            <div class="denimImg mt-5 mb-5">
-              <div
-                id="carouselExampleSlidesOnly"
-                class="carousel slide"
-                data-bs-ride="carousel"
-                data-bs-touch="true"
-                data-bs-interval = "3000"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="./assets/denimImg1.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/denimImg2.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/denimImg3.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end denim -->
-    <!-- fabric -->
-    <div class="container mt-4">
-      <div class="fabric" id="fabric">
-        <div class="row">
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv"
-          >
-            <div class="fabricImg mt-5 mb-5">
-              <img src="./assets/fabricImg.jpg" alt="" />
-            </div>
-          </div>
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 fabricCol2 contentDiv"
-          >
-            <div class="fabricContent w-100 pb-5">
-              <div class="fabricHeading">
-                <h2>fabric</h2>
-              </div>
-              <div class="fabricPara mt-4">
-                <p>
-                  We specialize in manufacturing fully embellished and
-                  custom-built fabric sets for retailers and end consumers. We
-                  produce a wide range of fabric including 100% cotton fabric,
-                  CVC, microfiber, cotton blends, 100% poly textures, cotton
-                  linen, and digital-design fabrics. We have the power of market
-                  intelligence through which we mold our creative ideas into the
-                  top-trending design.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end fabric -->
-    <!-- kitchen -->
-    <div class="container mt-4">
-      <div class="kitchen" id="kitchen">
-        <div class="row">
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 kitchenCol2 contentDiv"
-          >
-            <div class="kitchenContent w-100 pb-5">
-              <div class="kitchenHeading">
-                <h2>kitchen</h2>
-              </div>
-              <div class="kitchenPara mt-4">
-                <p>
-                  We are proficient of manufacturing kitchen and table linen
-                  products for regular use. We use hefty and durable dobby
-                  fabrics and cotton sateen that offer complete protection from
-                  heat. Our production consists of different types of
-                  kitchen-use products such as Aprons, Table cloths, Cleaning
-                  napkins, Tea cosy, Hand Napkins and many more. Our
-                  light-weight twill fabrics are made up of 100% durable
-                  cotton/polyester making it comfortable to use in hot
-                  environments.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv"
-          >
-            <div class="kitchenImg mt-5 mb-5">
-              <img src="./assets/kitchenImg.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end kitchen -->
-    <!-- window -->
-    <div class="container mt-4">
-      <div class="window" id="window">
-        <div class="row">
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv"
-          >
-            <div class="windowImg mt-5 mb-5">
-              <div
-                id="carouselExampleSlidesOnly"
-                class="carousel slide"
-                data-bs-ride="carousel"
-                data-bs-touch="true"
-                data-bs-interval = "3000"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="./assets/windowImg1.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/windowImg2.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 windowCol2 contentDiv"
-          >
-            <div class="windowContent w-100 pb-5">
-              <div class="windowHeading">
-                <h2>window</h2>
-              </div>
-              <div class="windowPara mt-4">
-                <p>
-                  We specialize in manufacturing fully embellished and
-                  custom-built window sets for retailers and end consumers. We
-                  produce a wide range of fabric including 100% cotton fabric,
-                  CVC, microfiber, cotton blends, 100% poly textures, cotton
-                  linen, and digital-design fabrics. We have the power of market
-                  intelligence through which we mold our creative ideas into the
-                  top-trending design.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end window -->
-    <!-- bath -->
-    <div class="container mt-4">
-      <div class="bath" id="bath">
-        <div class="row">
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 bathCol2 contentDiv"
-          >
-            <div class="bathContent w-100 pb-5">
-              <div class="bathHeading">
-                <h2>bath</h2>
-              </div>
-              <div class="bathPara mt-4">
-                <p>
-                  We are proficient of manufacturing bath and table linen
-                  products for regular use. We use hefty and durable dobby
-                  fabrics and cotton sateen that offer complete protection from
-                  heat. Our production consists of different types of bath-use
-                  products such as Aprons, Table cloths, Cleaning napkins, Tea
-                  cosy, Hand Napkins and many more. Our light-weight twill
-                  fabrics are made up of 100% durable cotton/polyester making it
-                  comfortable to use in hot environments.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv"
-          >
-            <div class="bathImg mt-5 mb-5">
-              <img src="./assets/bathImg.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end bath -->
-    <!-- contactUs -->
-    <div class="contactUsParent">
-        <div class="contactUsDiv">
-          <div class="contactUs">
-            <div class="contactNoneDiv">
-              <div class="contactUsPara">
-                <p>Don't forget to subscribe for the latest news and updates</p>
-              </div>
-              <div class="emailInputDiv">
-                <input type="email" placeholder="Your email address" />
-              </div>
-              <div class="subscribeDiv">
-                <button>Subscribe</button>
-              </div>
-            </div>
-            <div class="contactUsLinks">
-              <div class="contactFacebook">
-                <i class="fa-brands fa-facebook-f"></i>
-              </div>
-              <div class="contactTwitter">
-                <i class="fa-brands fa-x-twitter"></i>
-              </div>
-              <div class="contactYoutube">
-                <i class="fa-brands fa-youtube"></i>
-              </div>
-              <div class="contactInstagram">
-                <i class="fa-brands fa-instagram"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end contactUs -->
-      <!-- footer -->
-      <div class="footerParent">
-        <div class="footerDiv">
-          <div class="footerRow">
-            <div class="footerLogoDiv">
-              <div class="footerLogo">
-                <img src="./assets/footerLogo.png" alt="" />
-              </div>
-              <div class="footerLogoContent">
-                <div class="copyrights">
-                  <p>
-                    <i class="fa-regular fa-copyright"></i> 2020 - Kam
-                    International
-                  </p>
-                  <p>
-                    Designed By:
-                    <a href="https://www.github.com/Huzaifa-Khan-Official"
-                      >Huzaifa Khan</a
-                    >
-                  </p>
-                  <div class="footerLogoLinks">
-                    <div class="contactFacebook">
-                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    </div>
-                    <div class="contactTwitter">
-                      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    </div>
-                    <div class="contactYoutube">
-                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                    <div class="contactInstagram">
-                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="footerAboutDiv">
-              <div class="footerAbout">
-                <h5>About</h5>
-                <p>
-                  To deliver the most favorable worth to our entire stake
-                  controller by not merely being the pioneers in an inventive
-                  expertise, but also by making sure that we play our
-                  responsibility in the reasonably priced, social & environmental
-                  betterment of the region.
-                </p>
-              </div>
-            </div>
-            <div class="footerUlDiv">
-              <div class="footerUl">
-                <ul>
-                  <li><a href="./about.html" id="footerLIAbout">About</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Certification</a></li>
-                  <li><a href="#">Sustainability</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <span id="line1"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="noBorder">
+                    <h3>About Us</h3>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#overview">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Overview</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#vision">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Vision</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#history">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> History</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
+                  <li class="dropdownLi">
+                    <a class="dropdownItem" href="./about.html#ceoMessage">
+                      <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> CEO Message</div>
+                      <span id="line2"></span>
+                    </a>
+                  </li>
                 </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">
+                  <div class="navcontent">
+                    Products & Services
+                    <i class="fa-solid fa-angle-down" style="color: #ffffff"></i>
+                  </div>
+                  <span id="line1"></span>
+                </a>
+                <ul class="dropdown-menu PAndSul">
+                  <ul class="dropdown-menu1">
+                    <li class="noBorder">
+                      <h3><a href="./products.html">Products</a></h3>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#bedding">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Bedding</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#denim">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Denim</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#fabric">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Fabric</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#kitchen">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Kitchen</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#window">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Window</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="#bath">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Bath</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="dropdown-menu2">
+                    <li class="noBorder">
+                      <h3><a href="./services.html">Services</a></h3>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#ginning">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Ginning</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#spinning">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Spinning</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#weaving">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Weaving</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#processing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Processing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#dyeing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Dyeing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#printing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Printing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#finishing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Finishing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#stitching">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Stitching</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./services.html#packing">
+                        <div><i class="fa-solid fa-angle-right" style="color: #3F5AE4;"></i> Packing</div>
+                        <span id="line2"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Sustainability
+                  <span id="line1"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Certification
+                  <span id="line1"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Design Library
+                  <span id="line1"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us
+                  <span id="line1"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="coverContent">
+      <div class="coverHeading">
+        <h1>Product</h1>
+        <div class="coverHeadingH2">
+          <h2>KAM INTERNATIONAL PRODUCES THE BEST QUALITY PRODUCTS.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end cover -->
+  <!-- bedding -->
+  <div class="container mt-5">
+    <div class="bedding" id="bedding">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+          <div class="beddingImg mt-5 mb-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"
+              data-bs-interval="3000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/beddingImg1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/beddingImg2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/beddingImg3.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 beddingCol2 contentDiv">
+          <div class="beddingContent w-100 pb-5">
+            <div class="beddingHeading">
+              <h2>Bedding</h2>
+            </div>
+            <div class="beddingPara mt-4">
+              <p>
+                We specialize in manufacturing fully embellished and
+                custom-built bedding sets for retailers and end consumers. We
+                produce a wide range of fabric including 100% cotton fabric,
+                CVC, microfiber, cotton blends, 100% poly textures, cotton
+                linen, and digital-design fabrics. We have the power of market
+                intelligence through which we mold our creative ideas into the
+                top-trending design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end bedding -->
+  <!-- denim -->
+  <div class="container mt-4">
+    <div class="denim" id="denim">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 denimCol2 contentDiv">
+          <div class="denimContent w-100 pb-5">
+            <div class="denimHeading">
+              <h2>Denim</h2>
+            </div>
+            <div class="denimPara mt-4">
+              <p>
+                We specialize in manufacturing fully embellished and
+                custom-built denim sets for retailers and end consumers. We
+                produce a wide range of fabric including 100% cotton fabric,
+                CVC, microfiber, cotton blends, 100% poly textures, cotton
+                linen, and digital-design fabrics. We have the power of market
+                intelligence through which we mold our creative ideas into the
+                top-trending design.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+          <div class="denimImg mt-5 mb-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"
+              data-bs-interval="3000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/denimImg1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/denimImg2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/denimImg3.jpg" class="d-block w-100" alt="..." />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- end footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </div>
+  </div>
+  <!-- end denim -->
+  <!-- fabric -->
+  <div class="container mt-4">
+    <div class="fabric" id="fabric">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+          <div class="fabricImg mt-5 mb-5">
+            <img src="./assets/fabricImg.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 fabricCol2 contentDiv">
+          <div class="fabricContent w-100 pb-5">
+            <div class="fabricHeading">
+              <h2>fabric</h2>
+            </div>
+            <div class="fabricPara mt-4">
+              <p>
+                We specialize in manufacturing fully embellished and
+                custom-built fabric sets for retailers and end consumers. We
+                produce a wide range of fabric including 100% cotton fabric,
+                CVC, microfiber, cotton blends, 100% poly textures, cotton
+                linen, and digital-design fabrics. We have the power of market
+                intelligence through which we mold our creative ideas into the
+                top-trending design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end fabric -->
+  <!-- kitchen -->
+  <div class="container mt-4">
+    <div class="kitchen" id="kitchen">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 kitchenCol2 contentDiv">
+          <div class="kitchenContent w-100 pb-5">
+            <div class="kitchenHeading">
+              <h2>kitchen</h2>
+            </div>
+            <div class="kitchenPara mt-4">
+              <p>
+                We are proficient of manufacturing kitchen and table linen
+                products for regular use. We use hefty and durable dobby
+                fabrics and cotton sateen that offer complete protection from
+                heat. Our production consists of different types of
+                kitchen-use products such as Aprons, Table cloths, Cleaning
+                napkins, Tea cosy, Hand Napkins and many more. Our
+                light-weight twill fabrics are made up of 100% durable
+                cotton/polyester making it comfortable to use in hot
+                environments.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+          <div class="kitchenImg mt-5 mb-5">
+            <img src="./assets/kitchenImg.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end kitchen -->
+  <!-- window -->
+  <div class="container mt-4">
+    <div class="window" id="window">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+          <div class="windowImg mt-5 mb-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true"
+              data-bs-interval="3000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/windowImg1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/windowImg2.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 windowCol2 contentDiv">
+          <div class="windowContent w-100 pb-5">
+            <div class="windowHeading">
+              <h2>window</h2>
+            </div>
+            <div class="windowPara mt-4">
+              <p>
+                We specialize in manufacturing fully embellished and
+                custom-built window sets for retailers and end consumers. We
+                produce a wide range of fabric including 100% cotton fabric,
+                CVC, microfiber, cotton blends, 100% poly textures, cotton
+                linen, and digital-design fabrics. We have the power of market
+                intelligence through which we mold our creative ideas into the
+                top-trending design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end window -->
+  <!-- bath -->
+  <div class="container mt-4">
+    <div class="bath" id="bath">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 bathCol2 contentDiv">
+          <div class="bathContent w-100 pb-5">
+            <div class="bathHeading">
+              <h2>bath</h2>
+            </div>
+            <div class="bathPara mt-4">
+              <p>
+                We are proficient of manufacturing bath and table linen
+                products for regular use. We use hefty and durable dobby
+                fabrics and cotton sateen that offer complete protection from
+                heat. Our production consists of different types of bath-use
+                products such as Aprons, Table cloths, Cleaning napkins, Tea
+                cosy, Hand Napkins and many more. Our light-weight twill
+                fabrics are made up of 100% durable cotton/polyester making it
+                comfortable to use in hot environments.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imgDiv">
+          <div class="bathImg mt-5 mb-5">
+            <img src="./assets/bathImg.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end bath -->
+  <!-- contactUs -->
+  <div class="contactUsParent">
+    <div class="contactUsDiv">
+      <div class="contactUs">
+        <div class="contactNoneDiv">
+          <div class="contactUsPara">
+            <p>Don't forget to subscribe for the latest news and updates</p>
+          </div>
+          <div class="emailInputDiv">
+            <input type="email" placeholder="Your email address" />
+          </div>
+          <div class="subscribeDiv">
+            <button>Subscribe</button>
+          </div>
+        </div>
+        <div class="contactUsLinks">
+          <div class="contactFacebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="contactTwitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+          <div class="contactYoutube">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="contactInstagram">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contactUs -->
+  <!-- footer -->
+  <div class="footerParent">
+    <div class="footerDiv">
+      <div class="footerRow">
+        <div class="footerLogoDiv">
+          <div class="footerLogo">
+            <img src="./assets/footerLogo.png" alt="" />
+          </div>
+          <div class="footerLogoContent">
+            <div class="copyrights">
+              <p>
+                <i class="fa-regular fa-copyright"></i> 2020 - Kam
+                International
+              </p>
+              <p>
+                Designed By:
+                <a href="https://www.github.com/Huzaifa-Khan-Official">Huzaifa Khan</a>
+              </p>
+              <div class="footerLogoLinks">
+                <div class="contactFacebook">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="contactTwitter">
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="contactYoutube">
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="contactInstagram">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footerAboutDiv">
+          <div class="footerAbout">
+            <h5>About</h5>
+            <p>
+              To deliver the most favorable worth to our entire stake
+              controller by not merely being the pioneers in an inventive
+              expertise, but also by making sure that we play our
+              responsibility in the reasonably priced, social & environmental
+              betterment of the region.
+            </p>
+          </div>
+        </div>
+        <div class="footerUlDiv">
+          <div class="footerUl">
+            <ul>
+              <li><a href="./about.html" id="footerLIAbout">About</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Certification</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
     background-color: #ededed;
+    font-family: "Roboto", sans-serif;
 }
 
 /* cover */
@@ -20,13 +23,19 @@ body {
     justify-content: flex-end;
 }
 
+.linksDiv i,
+.searchIcon i {
+    color: black !important;
+}
+
 .coverDiv {
-    background-image: url("./assets/2.jpg");
+    background-image: url("./assets/about\ cover\ img.png");
     padding-bottom: 15px;
     background-size: cover;
     height: 600px;
     background-repeat: no-repeat;
     position: relative;
+    width: 100%;
 }
 
 .coverDivBlur {
@@ -42,7 +51,9 @@ body {
 .linksDiv {
     display: flex;
     justify-content: flex-end;
-    padding: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px
 }
 
 .linksDiv div {
@@ -170,6 +181,19 @@ body {
     margin: 10vh auto;
 }
 
+.coverHeadingH2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coverHeading h2 {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+
 .nav-link {
     display: flex;
     flex-direction: column;
@@ -255,6 +279,10 @@ body {
         font-size: 30px;
     }
 
+    .coverHeading p {
+        font-size: 16px;
+    }
+
     .navbar-brand img {
         width: 30vw;
     }
@@ -276,451 +304,92 @@ body {
     }
 }
 
+@media (max-width: 300px) {
+    .coverHeadingH2 h2 {
+        font-size: 20px;
+    }
+}
 
 /* end cover */
 
-.cardsDiv {
-    padding: 20px;
-    padding-top: 0;
-}
-
-.cardsDiv .row {
-    margin-right: 0;
-    justify-content: space-around;
-}
-
-.cardsDiv .row .col-12 {
-    margin-top: -5vh;
-}
-
-.card {
-    width: 100%;
-    height: 100%;
-}
-
-.card-img {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.card-body {
-    box-shadow: 0px 6px 10px 6px rgba(0, 0, 0, 0.2);
-    padding-left: 25px;
-    padding-bottom: 50px;
-}
-
-.card:hover {
-    transition: all .5s;
-    transform: translateY(-10px);
-}
-
-.cardReveal {
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 1s ease-in-out;
-}
-
-.cardReveal.active {
-    transform: translateY(0px);
-    opacity: 1;
-}
-
-
-@media (max-width: 242px) {
-    .card-body {
-        padding-left: 15px;
-    }
-}
-
-@media (max-width:767px) {
-    .cardsDiv .row .margintop5 {
-        margin-top: 5vh;
-    }
-}
-
-/* end cards */
-
-/* capabilities */
-.capabilities {
-    width: 100%;
-    opacity: 0;
-}
-
-.capabilitiesVideo video {
+/* containerDiv */
+.containerDiv {
+    background-color: #ededed;
     width: 100%;
 }
 
-.capabilitiesContent {
-    margin-left: 6vw;
+.containerDiv .row {
+    padding: 0 20px;
+    width: 100%;
+}
+
+.containerDivContent {
     display: flex;
     flex-direction: column;
+    padding: 25px;
 }
 
-.capabilitiesCol2 {
+.containerDivCol2 {
     display: flex;
     align-items: center;
+    padding: 20px 0;
 }
 
-.capabilitiesHeading h2 {
-    font-size: 46px;
+.containerDiv img {
+    width: 100%;
+    height: 100%;
+    border-radius: 78% 22% 74% 26% / 20% 77% 23% 80% !important;
 }
 
-.capabilities.active {
-    animation: fade-in-left 1s ease-in-out 0s 1 normal forwards;
+.containerDivPara p {
+    color: #848bb6;
+    font-size: 18px;
 }
 
-.capabilities.inactive {
-    animation: fadeOutLeft 1s ease-in-out 0s 1 normal forwards;
+.containerDivHeading h2 {
+    font-family: "Roboto";
+    line-height: 46px;
+    font-weight: 700;
+    font-style: normal;
+    color: #3a426d;
+    font-size: 36px;
+    text-transform: capitalize;
 }
 
-@keyframes fadeOutLeft {
-    0% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-}
-
-@keyframes fade-in-left {
-    0% {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@media (max-width: 767px) {
-    .capabilitiesContent {
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 300px) {
-    .capabilitiesHeading h2 {
-        font-size: 30px;
-    }
-}
-
-
-/* end capabilitis */
-
-/* productCategory */
-.productCategoryDiv {
-    padding-top: 1px;
-}
-
-.productCategoryHeading h2 {
-    text-align: center;
-}
-
-.productContainer {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.containerDiv {
-    padding: 10px;
-    opacity: 0;
-}
-
-.contentDivContainer {
-    display: flex;
-    justify-content: flex-start;
+.imgDiv {
+    width: 50%;
+    padding: 0 20px;
 }
 
 .contentDiv {
-    padding: 110px 30px 45px 30px;
-}
-
-.contentDiv h3 {
-    font-weight: 700;
-    color: white;
-    margin: 10px 0px 30px 0px;
-}
-
-.contentDiv a {
-    color: #FFFFFF;
-    border-style: solid;
-    border-radius: 50px 50px 50px 50px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-}
-
-.contentDiv a span {
-    margin-left: 21px;
-}
-
-.containerDiv.active {
-    animation: fade-in-right 1s ease-in 0s 1 normal forwards;
-}
-
-.containerDiv.inactive {
-    animation: fadeOutRight 1s ease-in-out 0s 1 normal forwards;
-}
-
-@keyframes fadeOutRight {
-    0% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-}
-
-@keyframes fade-in-right {
-    0% {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-/* end productCategory */
-/* numbersDiv */
-.numbersDiv {
-    padding: 5px;
+    width: 50%;
     background-color: white;
-    padding-bottom: 0;
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 1s ease-in-out;
 }
 
-.contentIcon img {
-    width: 50px;
-}
-
-.contentDiv .content {
-    display: flex;
-}
-
-.numberContent {
-    margin-left: 10px;
-}
-
-.numbersCont .contentDiv {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    width: 100%;
-}
-
-.numbersCont {
-    padding: 5px;
-}
-
-.numbersCont .row {
-    padding: 10px;
-}
-
-.contentNumber {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.contentName {
-    font-size: 16px;
-    width: 100px;
-}
-
-.numbersDiv.active {
-    transform: translateY(0px);
-    opacity: 1;
-}
-
-/* end numbersDiv */
-
-/* Business Category Div */
-.businessCategoryParent {
-    padding: 50px 30px;
-    margin: 50px 0px;
-    position: relative;
-}
-
-.businessCategory {
-    padding: 10px;
-}
-
-.businessCategory .row {
-    padding: 20px;
-}
-
-.flexEnd {
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    border: 1px solid white;
-    padding: 50px 20px;
-}
-
-.flexEnd:hover .businessStrategy2 {
-    display: block !important;
-}
-
-.flexEnd:hover #displayNone {
-    padding: 20px;
-    color: white !important;
-    background-color: #2F668E;
-    display: block;
-    animation: fadeInBottom .5s ease 0s 1 normal forwards;
-}
-
-@keyframes fadeInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-#displayNone a {
-    color: white;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 30px;
-    border: 1px solid white;
-}
-
-.displayNone2 h2 {
-    color: white;
-    font-size: 30px;
-}
-
-.businessStrengthImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("./assets/4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    transition: all .5s;
-    animation: changeBackground .5s ease 0s 1 normal forwards;
-}
-
-.settingImgBack {
-    animation: changeBackground .5s ease 0s 1 normal forwards;
-}
-
-.businessStrategyImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("./assets/6.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    display: none;
-    transition: all .5s;
-    animation: changeBackground .5s ease 0s 1 normal forwards;
-}
-
-.coreValuesImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("./assets/7.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    display: none;
-    transition: all .5s;
-    animation: changeBackground .5s ease 0s 1 normal forwards;
-}
-
-@keyframes changeBackground {
-    0% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-#displayNone p {
-    margin-bottom: 20px;
-}
-
-.businessStrategy2,
-.businessStrength2,
-.coreValues2 {
-    cursor: default;
-    display: none;
-}
-
-#displayNone {
-    display: none;
-}
-
-.flexEnd:hover .displayNone2 {
-    display: none;
-}
-
-@media (max-width: 990px) {
-    .flexEnd {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 311px) {
-    #displayNone a {
-        padding: 4px 10px;
-        font-size: 10px;
-    }
-    .businessCategory .row {
+@media (max-width: 767px) {
+    .imgDiv {
+        width: 100%;
         padding: 0;
     }
-}
 
-@media (max-width:200px) {
-    .businessCategoryParent {
-        padding: 50px 15px;
+    .contentDiv {
+        width: 100%;
     }
 }
 
-@media (max-width: 239px) {
-    .displayNone2 h2 {
-        font-size: 24px;
+@media (max-width: 220px) {
+    .ginningHeading h2 {
+        font-size: 26px;
     }
 }
-/* end Business Category Div */
+
+/* containerDiv */
 
 /* contactUs */
+.contactUs {
+    width: 100%;
+}
+
 .contactUsLinks i {
     color: #5f5f5f;
     font-size: 20px;
@@ -795,6 +464,10 @@ body {
 /* end contactUs */
 
 /* footer */
+.contactUsParent {
+    width: 100%;
+}
+
 .footerLogo img {
     width: 200px;
     height: 85px;
@@ -904,6 +577,7 @@ body {
     .footerLogo img {
         width: 150px;
     }
+
     .footerLogoLinks {
         flex-wrap: wrap;
     }
