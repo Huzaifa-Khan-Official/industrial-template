@@ -28,7 +28,7 @@ body {
     background-image: url("./assets/about\ cover\ img.png");
     padding-bottom: 15px;
     background-size: cover;
-    height: 80vh;
+    height: 600px;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
@@ -533,6 +533,9 @@ body {
     border-radius: 30px;
 }
 
+.subscribeDiv button:hover {
+    background-color: #3657fa;
+}
 .contactNoneDiv {
     display: flex;
     gap: 10px;

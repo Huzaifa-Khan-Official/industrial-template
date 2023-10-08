@@ -24,7 +24,7 @@ body {
     background-image: url("./assets/2.jpg");
     padding-bottom: 15px;
     background-size: cover;
-    height: 80vh;
+    height: 600px;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -614,7 +614,6 @@ body {
     top: 0;
     left: 0;
     background-image: url("./assets/4.jpg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -634,7 +633,6 @@ body {
     top: 0;
     left: 0;
     background-image: url("./assets/6.jpg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -775,6 +773,10 @@ body {
     color: #FFFFFF;
     border: none;
     border-radius: 30px;
+}
+
+.subscribeDiv button:hover {
+    background-color: #3657fa;
 }
 
 .contactNoneDiv {

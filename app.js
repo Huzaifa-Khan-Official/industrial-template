@@ -1,27 +1,33 @@
 var products = [
     {
         name: "Bedding",
-        img: "./assets/productCategory1.jpg"
+        img: "./assets/productCategory1.jpg",
+        src : "./products.html#bedding"
     },
     {
         name: "Denim",
-        img: "./assets/productCategory2.jpg"
+        img: "./assets/productCategory2.jpg",
+        src : "./products.html#denim"
     },
     {
         name: "Fabrics",
-        img: "./assets/productCategory3.jpg"
+        img: "./assets/productCategory3.jpg",
+        src : "./products.html#fabric"
     },
     {
         name: "Kitchen",
-        img: "./assets/productCategory4.jpg"
+        img: "./assets/productCategory4.jpg",
+        src : "./products.html#kitchen"
     },
     {
         name: "Window",
-        img: "./assets/productCategory5.jpg"
+        img: "./assets/productCategory5.jpg",
+        src : "./products.html#window"
     },
     {
         name: "Bath",
-        img: "./assets/productCategory6.jpg"
+        img: "./assets/productCategory6.jpg",
+        src : "./products.html#bath"
     }
 ];
 
@@ -30,6 +36,8 @@ var productCategoryRow = document.getElementById("productCategoryRow")
 for (var i = 0; i < products.length; i++) {
     var productName = products[i].name;
     var productImg = products[i].img;
+    var productSrc = products[i].src;
+    console.log(productSrc);
     var containerDiv = document.createElement("div");
     containerDiv.setAttribute("class", "col-12 col-md-4 containerDiv");
     containerDiv.innerHTML = `
@@ -37,7 +45,7 @@ for (var i = 0; i < products.length; i++) {
         <div class="contentDivContainer">
             <div class="contentDiv">
                 <h3>${productName}</h3>
-                <a href="#">
+                <a href="${productSrc}">
                     View
                     <span><i class="fa-solid fa-arrow-right fa-xl" style="color: #ffffff;"></i></span>
                 </a>

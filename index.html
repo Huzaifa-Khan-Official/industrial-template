@@ -1,421 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kam International - The Largest Exporters of Home Textiles</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Kam International - The Largest Exporters of Home Textiles</title>
-</head>
-
-<body>
-  <!-- cover -->
-  <div class="coverDiv">
-    <div class="coverDivBlur"></div>
-    <div class="headerLinks">
-      <div class="linksDiv">
-        <div class="facebookLink">
-          <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i>
-        </div>
-        <div class="tiwtterLink">
-          <i class="fa-brands fa-square-x-twitter fa-lg" style="color: #ffffff;"></i>
-        </div>
-        <div class="youtubeLink">
-          <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff;"></i>
-        </div>
-        <div class="instagramLink">
-          <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
-        </div>
-      </div>
-      <div class="searchDiv">
-        <div class="searchIcon">
-          <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i>
-        </div>
-      </div>
-    </div>
-    <div class="navDiv">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <div class="navbarLogo">
-            <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+  <body>
+    <!-- cover -->
+    <div class="coverDiv">
+      <div class="coverDivBlur"></div>
+      <div class="headerLinks">
+        <div class="linksDiv">
+          <div class="facebookLink">
+            <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff"></i>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./about.html">
-                  <div class="navcontent">
-                    About Us <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i>
-                  </div>
-                  <span id="line1"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="noBorder">
-                    <h3>About Us</h3>
-                  </li>
-                  <li class="dropdownLi"><a class="dropdownItem" href="./about.html#overview">Overview
-                      <span id="line2"></span>
-                    </a></li>
-                  <li class="dropdownLi"><a class="dropdownItem" href="./about.html#vision">Vision
-                      <span id="line2"></span>
-                    </a></li>
-                  <li class="dropdownLi"><a class="dropdownItem" href="./about.html#history">History
-                      <span id="line2"></span>
-                    </a></li>
-                  <li class="dropdownLi"><a class="dropdownItem" href="./about.html#ceoMessage">CEO Message
-                      <span id="line2"></span>
-                    </a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#">
-                  <div class="navcontent">
-                    Products & Services <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i>
-                  </div>
-                  <span id="line1"></span>
-                </a>
-                <ul class="dropdown-menu PAndSul">
-                  <ul class="dropdown-menu1">
+          <div class="tiwtterLink">
+            <i
+              class="fa-brands fa-square-x-twitter fa-lg"
+              style="color: #ffffff"
+            ></i>
+          </div>
+          <div class="youtubeLink">
+            <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff"></i>
+          </div>
+          <div class="instagramLink">
+            <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"></i>
+          </div>
+        </div>
+        <div class="searchDiv">
+          <div class="searchIcon">
+            <i
+              class="fa-solid fa-magnifying-glass fa-lg"
+              style="color: #ffffff"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="navDiv">
+        <nav
+          class="navbar navbar-expand-lg bg-body-tertiary"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <div class="navbarLogo">
+              <a class="navbar-brand" href="#"
+                ><img src="./assets/logo.png" alt=""
+              /></a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./about.html">
+                    <div class="navcontent">
+                      About Us
+                      <i
+                        class="fa-solid fa-angle-down"
+                        style="color: #ffffff"
+                      ></i>
+                    </div>
+                    <span id="line1"></span>
+                  </a>
+                  <ul class="dropdown-menu">
                     <li class="noBorder">
-                      <h3><a href="./products.html">Products</a></h3>
+                      <h3>About Us</h3>
                     </li>
-                    <li class="dropdownLi"><a class="dropdownItem" href="#">Action
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./about.html#overview"
+                        >Overview
                         <span id="line2"></span>
-                      </a></li>
-                    <li class="dropdownLi"><a class="dropdownItem" href="#">Another action
-                        <span id="line2"></span>
-                      </a></li>
-                    <li class="dropdownLi"><a class="dropdownItem" href="#">Something else here
-                        <span id="line2"></span>
-                      </a></li>
-                  </ul>
-                  <ul class="dropdown-menu2">
-                    <li class="noBorder">
-                      <h3>Services</h3>
+                      </a>
                     </li>
-                    <li class="dropdownLi"><a class="dropdownItem" href="#">Action
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./about.html#vision"
+                        >Vision
                         <span id="line2"></span>
-                      </a></li>
-                    <li class="dropdownLi"><a class="dropdownItem" href="#">Another action
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./about.html#history"
+                        >History
                         <span id="line2"></span>
-                      </a></li>
-                    <li class="dropdownLi"><a class="dropdownItem" href="#">Something else here
+                      </a>
+                    </li>
+                    <li class="dropdownLi">
+                      <a class="dropdownItem" href="./about.html#ceoMessage"
+                        >CEO Message
                         <span id="line2"></span>
-                      </a></li>
+                      </a>
+                    </li>
                   </ul>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Sustainability
-                  <span id="line1"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Certification
-                  <span id="line1"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Design Library
-                  <span id="line1"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us
-                  <span id="line1"></span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="coverContent">
-      <div class="coverHeading">
-        <h1>One Of The Largest Exporters Of Textitle Products</h1>
-      </div>
-    </div>
-  </div>
-  <!-- end cover -->
-  <!-- cards -->
-  <div class="cardsDiv pb-5">
-    <div class="row">
-      <div class="col-12 col-md-4 cardReveal">
-
-        <div class="card">
-          <div class="card-body">
-            <div class="card-img mb-5 mt-4">
-              <i class="fa-solid fa-display fa-2xl"></i>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#">
+                    <div class="navcontent">
+                      Products & Services
+                      <i
+                        class="fa-solid fa-angle-down"
+                        style="color: #ffffff"
+                      ></i>
+                    </div>
+                    <span id="line1"></span>
+                  </a>
+                  <ul class="dropdown-menu PAndSul">
+                    <ul class="dropdown-menu1">
+                      <li class="noBorder">
+                        <h3><a href="./products.html">Products</a></h3>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="./products.html#bedding"
+                          ><div>
+                            <i
+                              class="fa-solid fa-angle-right"
+                              style="color: #3f5ae4"
+                            ></i>
+                            Bedding
+                          </div>
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="./products.html#denim"
+                          ><div>
+                            <i
+                              class="fa-solid fa-angle-right"
+                              style="color: #3f5ae4"
+                            ></i>
+                            Denim
+                          </div>
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="./products.html#fabric">
+                          <div>
+                            <i
+                              class="fa-solid fa-angle-right"
+                              style="color: #3f5ae4"
+                            ></i>
+                            Fabric
+                          </div>
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="./products.html#kitchen"
+                          ><div>
+                            <i
+                              class="fa-solid fa-angle-right"
+                              style="color: #3f5ae4"
+                            ></i>
+                            Kitchen
+                          </div>
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="./products.html#window"
+                          ><div>
+                            <i
+                              class="fa-solid fa-angle-right"
+                              style="color: #3f5ae4"
+                            ></i>
+                            Window
+                          </div>
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="./products.html#bath"
+                          ><div>
+                            <i
+                              class="fa-solid fa-angle-right"
+                              style="color: #3f5ae4"
+                            ></i>
+                            Bath
+                          </div>
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-menu2">
+                      <li class="noBorder">
+                        <h3>Services</h3>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="#"
+                          >Action
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="#"
+                          >Another action
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                      <li class="dropdownLi">
+                        <a class="dropdownItem" href="#"
+                          >Something else here
+                          <span id="line2"></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Sustainability
+                    <span id="line1"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    >Certification
+                    <span id="line1"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    >Design Library
+                    <span id="line1"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    >Contact Us
+                    <span id="line1"></span>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <h5 class="card-title">Digital Print</h5>
-            <p class="card-text">As the Textile Industry is getting digitized day-by-day, every organization wants new
-              and more creative designs without any color limitations. KAM International is growing with the largest
-              digital machines consisting of 11 digital printing units with all digital processing from printing to
-              finish product.</p>
           </div>
-        </div>
+        </nav>
       </div>
-      <div class="col-12 col-md-4 margintop5 cardReveal">
-
-        <div class="card">
-          <div class="card-body">
-            <div class="card-img mb-5 mt-4">
-              <i class="fa-solid fa-display fa-2xl"></i>
-            </div>
-            <h5 class="card-title">Textile</h5>
-            <p class="card-text">Kam International is one of the top-leading textile manufacturer and exporters from
-              Pakistan. We are capable of producing 100% cotton fabric, organic cotton yarns, woven fabrics, and 100%
-              pure cotton fabrics with a commitment to provide the best quality products, respectively to our clients.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 margintop5 cardReveal">
-
-        <div class="card">
-          <div class="card-body">
-            <div class="card-img mb-5 mt-4">
-              <i class="fa-solid fa-display fa-2xl"></i>
-            </div>
-            <h5 class="card-title">Denim</h5>
-            <p class="card-text">In 1999, Mekotex established its name in Denim and in a very short period of time
-              become one of the biggest producers, sellers, and exporters of Denim fabrications. We never compromise on
-              our quality and standards; we are one of the largest denim fabric exporters and suppliers in Pakistan.</p>
-          </div>
+      <div class="coverContent">
+        <div class="coverHeading">
+          <h1>One Of The Largest Exporters Of Textitle Products</h1>
         </div>
       </div>
     </div>
-
-  </div>
-  <!-- end cards -->
-  <!-- capabilities -->
-  <div class="capabilities pt-5 p-1">
-    <div class="row  ps-4 pe-4">
-      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-        <div class="capabilitiesVideo mt-5 mb-5">
-          <video src="./assets/capabilitiesVideo.mp4" controls muted autoplay></video>
-        </div>
-      </div>
-      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 capabilitiesCol2">
-        <div class="capabilitiesContent w-100 pb-5">
-          <div class="capabilitiesHeading">
-            <h2>Our Capabilities</h2>
-          </div>
-          <div class="capabilitiesPara mt-4">
-            <p>Over the decades of experience, and with the magic of art-technology, KAM International produces the
-              finest design fabrics. We have the capability of manufacturing numerous kinds of fabrics for individual
-              and home use such as Bedding, design fabrics, denim, kitchen, window, bath and much more. As a vertically
-              integrated textile mill, our fabric production capabilities are embellished with state of the
-              art-technology to maintain consistent quality of our products. We specialize in high-quality, bespoke and
-              small-batch cloth evocative of the golden age of textiles. We produce the finest cotton-fiber and provide
-              complete home solutions to the end consumers.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end capabilitis -->
-  <!-- productCategory -->
-  <div class="productCategoryDiv mb-5 p-4">
-    <div class="productCategoryHeading mb-5">
-      <h2>Product Category</h2>
-    </div>
-    <div class="row" id="productCategoryRow">
-    </div>
-  </div>
-  <!-- end productCategory -->
-  <!-- numbersDiv -->
-  <div class="numbersDiv">
-    <div class="numbersCont">
+    <!-- end cover -->
+    <!-- cards -->
+    <div class="cardsDiv pb-5">
       <div class="row">
-        <div class="col-md-3 col-12">
-          <div class="contentDiv">
-            <div class="content">
-              <div class="contentIcon">
-                <img src="./assets/lineal_img_icon.png" alt="">
+        <div class="col-12 col-md-4 cardReveal">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-img mb-5 mt-4">
+                <i class="fa-solid fa-display fa-2xl"></i>
               </div>
-              <div class="numberContent">
-                <div class="contentNumber" data-number="37500">0</div>
-                <div class="contentName">tons of yarn</div>
-              </div>
+              <h5 class="card-title">Digital Print</h5>
+              <p class="card-text">
+                As the Textile Industry is getting digitized day-by-day, every
+                organization wants new and more creative designs without any
+                color limitations. KAM International is growing with the largest
+                digital machines consisting of 11 digital printing units with
+                all digital processing from printing to finish product.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-12">
-          <div class="contentDiv">
-            <div class="content">
-              <div class="contentIcon">
-                <img src="./assets/rocket_icon.png" alt="">
+        <div class="col-12 col-md-4 margintop5 cardReveal">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-img mb-5 mt-4">
+                <i class="fa-solid fa-display fa-2xl"></i>
               </div>
-              <div class="numberContent">
-                <div class="contentNumber" data-number="17000">0</div>
-                <div class="contentName">tons of fabric</div>
-              </div>
+              <h5 class="card-title">Textile</h5>
+              <p class="card-text">
+                Kam International is one of the top-leading textile manufacturer
+                and exporters from Pakistan. We are capable of producing 100%
+                cotton fabric, organic cotton yarns, woven fabrics, and 100%
+                pure cotton fabrics with a commitment to provide the best
+                quality products, respectively to our clients.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-12">
-          <div class="contentDiv">
-            <div class="content">
-              <div class="contentIcon">
-                <img src="./assets/presentaion_icon.png" alt="">
+        <div class="col-12 col-md-4 margintop5 cardReveal">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-img mb-5 mt-4">
+                <i class="fa-solid fa-display fa-2xl"></i>
               </div>
-              <div class="numberContent">
-                <div class="contentNumber" data-number="9000">0</div>
-                <div class="contentName">tons of dyed fabric</div>
-              </div>
+              <h5 class="card-title">Denim</h5>
+              <p class="card-text">
+                In 1999, Mekotex established its name in Denim and in a very
+                short period of time become one of the biggest producers,
+                sellers, and exporters of Denim fabrications. We never
+                compromise on our quality and standards; we are one of the
+                largest denim fabric exporters and suppliers in Pakistan.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-12">
-          <div class="contentDiv">
-            <div class="content">
-              <div class="contentIcon">
-                <img src="./assets/presentaion_icon_2.png" alt="">
+      </div>
+    </div>
+    <!-- end cards -->
+    <!-- capabilities -->
+    <div class="capabilities pt-5 p-1">
+      <div class="row ps-4 pe-4">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="capabilitiesVideo mt-5 mb-5">
+            <video
+              src="./assets/capabilitiesVideo.mp4"
+              controls
+              muted
+              autoplay
+            ></video>
+          </div>
+        </div>
+        <div
+          class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 capabilitiesCol2"
+        >
+          <div class="capabilitiesContent w-100 pb-5">
+            <div class="capabilitiesHeading">
+              <h2>Our Capabilities</h2>
+            </div>
+            <div class="capabilitiesPara mt-4">
+              <p>
+                Over the decades of experience, and with the magic of
+                art-technology, KAM International produces the finest design
+                fabrics. We have the capability of manufacturing numerous kinds
+                of fabrics for individual and home use such as Bedding, design
+                fabrics, denim, kitchen, window, bath and much more. As a
+                vertically integrated textile mill, our fabric production
+                capabilities are embellished with state of the art-technology to
+                maintain consistent quality of our products. We specialize in
+                high-quality, bespoke and small-batch cloth evocative of the
+                golden age of textiles. We produce the finest cotton-fiber and
+                provide complete home solutions to the end consumers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end capabilities -->
+    <!-- productCategory -->
+    <div class="productCategoryDiv mb-5 p-4">
+      <div class="productCategoryHeading mb-5">
+        <h2>Product Category</h2>
+      </div>
+      <div class="row" id="productCategoryRow"></div>
+    </div>
+    <!-- end productCategory -->
+    <!-- numbersDiv -->
+    <div class="numbersDiv">
+      <div class="numbersCont">
+        <div class="row">
+          <div class="col-md-3 col-12">
+            <div class="contentDiv">
+              <div class="content">
+                <div class="contentIcon">
+                  <img src="./assets/lineal_img_icon.png" alt="" />
+                </div>
+                <div class="numberContent">
+                  <div class="contentNumber" data-number="37500">0</div>
+                  <div class="contentName">tons of yarn</div>
+                </div>
               </div>
-              <div class="numberContent">
-                <div class="contentNumber" data-number="1400">0</div>
-                <div class="contentName">tons ready-made clothes</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="contentDiv">
+              <div class="content">
+                <div class="contentIcon">
+                  <img src="./assets/rocket_icon.png" alt="" />
+                </div>
+                <div class="numberContent">
+                  <div class="contentNumber" data-number="17000">0</div>
+                  <div class="contentName">tons of fabric</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="contentDiv">
+              <div class="content">
+                <div class="contentIcon">
+                  <img src="./assets/presentaion_icon.png" alt="" />
+                </div>
+                <div class="numberContent">
+                  <div class="contentNumber" data-number="9000">0</div>
+                  <div class="contentName">tons of dyed fabric</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="contentDiv">
+              <div class="content">
+                <div class="contentIcon">
+                  <img src="./assets/presentaion_icon_2.png" alt="" />
+                </div>
+                <div class="numberContent">
+                  <div class="contentNumber" data-number="1400">0</div>
+                  <div class="contentName">tons ready-made clothes</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- end numbersDiv -->
+    <!-- end numbersDiv -->
 
-  <!-- businessCategoryParent -->
-  <div class="businessCategoryParent">
-    <div class="businessStrengthImg"></div>
-    <div class="businessStrategyImg"></div>
-    <div class="coreValuesImg"></div>
-    <div class="businessCategory">
-      <div class="row">
-        <div class="col-md-4 col-sm-12 col-12 flexEnd" onmouseover="changeBackground(1)"
-          onmouseout="setPreviousBackground()">
-          <div class="businessStrategy1 displayNone2">
-            <h2>Business Strategy</h2>
+    <!-- businessCategoryParent -->
+    <div class="businessCategoryParent">
+      <div class="businessStrengthImg"></div>
+      <div class="businessStrategyImg"></div>
+      <div class="coreValuesImg"></div>
+      <div class="businessCategory">
+        <div class="row">
+          <div
+            class="col-md-4 col-sm-12 col-12 flexEnd"
+            onmouseover="changeBackground(1)"
+            onmouseout="setPreviousBackground()"
+          >
+            <div class="businessStrategy1 displayNone2">
+              <h2>Business Strategy</h2>
+            </div>
+            <div class="businessStrategy2" id="displayNone">
+              <h3>Business Stategy</h3>
+              <p>
+                KAM International produces excellent quality products at market
+                competitive prices by adopting two techniques: Total Quality
+                Management (TQM): Complete assurance of product that fulfills
+                our clients needs. Just in Time: Make sure our product timely
+                deliver; or on time and cost effective. Our objective is to
+                deliver on time, in the most cost effective manner.
+              </p>
+              <a href="#"
+                >More Info
+                <i
+                  class="fa-solid fa-arrow-right fa-lg"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </div>
           </div>
-          <div class="businessStrategy2" id="displayNone">
-            <h3>Business Stategy</h3>
-            <p>KAM International produces excellent quality products at market competitive prices by adopting two
-              techniques: Total Quality Management (TQM): Complete assurance of product that fulfills our clients needs.
-              Just in Time: Make sure our product timely deliver; or on time and cost effective. Our objective is to
-              deliver on time, in the most cost effective manner.</p>
-            <a href="#">More Info <i class="fa-solid fa-arrow-right fa-lg" style="color: #ffffff;"></i></a>
+          <div
+            class="col-md-4 col-sm-12 col-12 flexEnd"
+            onmouseover="changeBackground(2)"
+            onmouseout="setPreviousBackground()"
+          >
+            <div class="businessStrength1 displayNone2">
+              <h2>Business Strength</h2>
+            </div>
+            <div class="businessStrength2" id="displayNone">
+              <h2>Business Strength</h2>
+              <p>
+                KAM International is one of the largest textile manufacturer,
+                exporter, and supplier of Pakistan. We are continuously evolving
+                our progress, process of expansion, and improving ourselves with
+                the help of latest technologies & innovative ideas in order to
+                ensure our customers in the best possible way.
+              </p>
+              <a href="#"
+                >More Info
+                <i
+                  class="fa-solid fa-arrow-right fa-lg"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-12 col-12 flexEnd" onmouseover="changeBackground(2)"
-          onmouseout="setPreviousBackground()">
-          <div class="businessStrength1 displayNone2">
-            <h2>Business Strength</h2>
-          </div>
-          <div class="businessStrength2" id="displayNone">
-            <h2>Business Strength</h2>
-            <p>KAM International is one of the largest textile manufacturer, exporter, and supplier of Pakistan. We are
-              continuously evolving our progress, process of expansion, and improving ourselves with the help of latest
-              technologies & innovative ideas in order to ensure our customers in the best possible way. </p>
-            <a href="#">More Info <i class="fa-solid fa-arrow-right fa-lg" style="color: #ffffff;"></i></a>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12 col-12 flexEnd" onmouseover="changeBackground(3)"
-          onmouseout="setPreviousBackground()">
-          <div class="coreValues1 displayNone2">
-            <h2>Core Values</h2>
-          </div>
-          <div class="coreValues2" id="displayNone">
-            <h2>Core Values</h2>
-            <p>We take pride in following rules and principals of ethical business practices and in being an
-              incorruptible corporate entity. We recognize our responsibility towards our valuable team members, staff
-              and labors; as well as to our stakeholders, co-sponsors, communities and the nation. We truly respect our
-              endeavor and our people to provide them endless opportunities to comprehend their full potential.</p>
-            <a href="#">More Info <i class="fa-solid fa-arrow-right fa-lg" style="color: #ffffff;"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end businessCategoryParent -->
-  <!-- contactuUs -->
-  <div class="contactUsParent">
-    <div class="contactUsDiv">
-      <div class="contactUs">
-        <div class="contactNoneDiv">
-          <div class="contactUsPara">
-            <p>Don't forget to subscribe for the latest news and updates</p>
-          </div>
-          <div class="emailInputDiv">
-            <input type="email" placeholder="Your email address">
-          </div>
-          <div class="subscribeDiv">
-            <button>Subscribe</button>
-          </div>
-        </div>
-        <div class="contactUsLinks">
-          <div class="contactFacebook"><i class="fa-brands fa-facebook-f"></i></div>
-          <div class="contactTwitter"><i class="fa-brands fa-x-twitter"></i></div>
-          <div class="contactYoutube"><i class="fa-brands fa-youtube"></i></div>
-          <div class="contactInstagram"><i class="fa-brands fa-instagram"></i></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end contactUs -->
-  <!-- footer -->
-  <div class="footerParent">
-    <div class="footerDiv">
-      <div class="footerRow">
-        <div class="footerLogoDiv">
-          <div class="footerLogo">
-            <img src="./assets/footerLogo.png" alt="">
-          </div>
-          <div class="footerLogoContent">
-            <div class="copyrights">
-              <p><i class="fa-regular fa-copyright"></i> 2020 - Kam Internatioal</p>
-              <p>Designed By: <a href="https://www.github.com/Huzaifa-Khan-Official">Huzaifa Khan</a></p>
-              <div class="footerLogoLinks">
-                <div class="contactFacebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
-                <div class="contactTwitter"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></div>
-                <div class="contactYoutube"><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
-                <div class="contactInstagram"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
-              </div>
+          <div
+            class="col-md-4 col-sm-12 col-12 flexEnd"
+            onmouseover="changeBackground(3)"
+            onmouseout="setPreviousBackground()"
+          >
+            <div class="coreValues1 displayNone2">
+              <h2>Core Values</h2>
+            </div>
+            <div class="coreValues2" id="displayNone">
+              <h2>Core Values</h2>
+              <p>
+                We take pride in following rules and principals of ethical
+                business practices and in being an incorruptible corporate
+                entity. We recognize our responsibility towards our valuable
+                team members, staff and labors; as well as to our stakeholders,
+                co-sponsors, communities and the nation. We truly respect our
+                endeavor and our people to provide them endless opportunities to
+                comprehend their full potential.
+              </p>
+              <a href="#"
+                >More Info
+                <i
+                  class="fa-solid fa-arrow-right fa-lg"
+                  style="color: #ffffff"
+                ></i
+              ></a>
             </div>
           </div>
         </div>
-        <div class="footerAboutDiv">
-          <div class="footerAbout">
-            <h5>About</h5>
-            <p>To deliver the most favorable worth to our entire stake controller by not merely being the pioneers in an inventive expertise, but also by making sure that we play our responsibility in the reasonably priced, social & environmental betterment of the region.</p>
+      </div>
+    </div>
+    <!-- end businessCategoryParent -->
+    <!-- contactUs -->
+    <div class="contactUsParent">
+      <div class="contactUsDiv">
+        <div class="contactUs">
+          <div class="contactNoneDiv">
+            <div class="contactUsPara">
+              <p>Don't forget to subscribe for the latest news and updates</p>
+            </div>
+            <div class="emailInputDiv">
+              <input type="email" placeholder="Your email address" />
+            </div>
+            <div class="subscribeDiv">
+              <button>Subscribe</button>
+            </div>
           </div>
-        </div>
-        <div class="footerUlDiv">
-          <div class="footerUl">
-            <ul>
-              <li><a href="./about.html" id="footerLIAbout">About</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Certification</a></li>
-              <li><a href="#">Sustainability</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <div class="contactUsLinks">
+            <div class="contactFacebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="contactTwitter">
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="contactYoutube">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="contactInstagram">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- end footer -->
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="app.js"></script>
-</body>
-
+    <!-- end contactUs -->
+    <!-- footer -->
+    <div class="footerParent">
+      <div class="footerDiv">
+        <div class="footerRow">
+          <div class="footerLogoDiv">
+            <div class="footerLogo">
+              <img src="./assets/footerLogo.png" alt="" />
+            </div>
+            <div class="footerLogoContent">
+              <div class="copyrights">
+                <p>
+                  <i class="fa-regular fa-copyright"></i> 2020 - Kam
+                  International
+                </p>
+                <p>
+                  Designed By:
+                  <a href="https://www.github.com/Huzaifa-Khan-Official"
+                    >Huzaifa Khan</a
+                  >
+                </p>
+                <div class="footerLogoLinks">
+                  <div class="contactFacebook">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="contactTwitter">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                  </div>
+                  <div class="contactYoutube">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </div>
+                  <div class="contactInstagram">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footerAboutDiv">
+            <div class="footerAbout">
+              <h5>About</h5>
+              <p>
+                To deliver the most favorable worth to our entire stake
+                controller by not merely being the pioneers in an inventive
+                expertise, but also by making sure that we play our
+                responsibility in the reasonably priced, social & environmental
+                betterment of the region.
+              </p>
+            </div>
+          </div>
+          <div class="footerUlDiv">
+            <div class="footerUl">
+              <ul>
+                <li><a href="./about.html" id="footerLIAbout">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Certification</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>

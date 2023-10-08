@@ -20,7 +20,8 @@ body {
     justify-content: flex-end;
 }
 
-.linksDiv i, .searchIcon i {
+.linksDiv i,
+.searchIcon i {
     color: black !important;
 }
 
@@ -28,7 +29,7 @@ body {
     background-image: url("./assets/about\ cover\ img.png");
     padding-bottom: 15px;
     background-size: cover;
-    height: 80vh;
+    height: 600px;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
@@ -175,6 +176,11 @@ body {
     margin: 10vh auto;
 }
 
+.coverHeadingH2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .coverHeading h2 {
     color: white;
     font-size: 26px;
@@ -293,4 +299,316 @@ body {
     }
 }
 
+@media (max-width: 300px) {
+    .coverHeadingH2 h2 {
+        font-size: 20px;
+    }
+}
+
 /* end cover */
+
+/* bedding, denim, fabric, kitchen, window, bath */
+.bedding,
+.denim,
+.fabric,
+.kitchen,
+.window,
+.bath {
+    background-color: #ededed;
+    width: 100%;
+}
+
+.bedding .row,
+.denim .row,
+.fabric .row,
+.kitchen .row,
+.window .row,
+.bath .row {
+    padding: 0 20px;
+    width: 100%;
+}
+
+.beddingContent,
+.denimContent,
+.fabricContent,
+.kitchenContent,
+.windowContent,
+.bathContent {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.beddingCol2,
+.denimCol2,
+.fabricCol2,
+.kitchenCol2,
+.windowCol2,
+.bathCol2 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.bedding img,
+.denim img,
+.fabric img,
+.kitchen img,
+.window img,
+.bath img {
+    width: 100%;
+    height: 100%;
+}
+
+.beddingPara p,
+.denimPara p,
+.fabricPara p,
+.kitchenPara p,
+.windowPara p,
+.bathPara p {
+    color: #848bb6;
+    font-size: 18px;
+}
+
+.beddingHeading h2,
+.denimHeading h2,
+.fabricHeading h2,
+.kitchenHeading h2,
+.windowHeading h2,
+.bathHeading h2 {
+    font-family: Roboto;
+    line-height: 46px;
+    font-weight: 700;
+    font-style: normal;
+    color: #3a426d;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.imgDiv {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.contentDiv {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .imgDiv {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contentDiv {
+        width: 100%;
+    }
+}
+
+@media (max-width: 220px) {
+    .beddingHeading h2 {
+        font-size: 26px;
+    }
+}
+
+/* end bedding, denim, fabric, kitchen, window, bath */
+
+/* contactUs */
+.contactUs {
+    width: 100%;
+}
+
+.contactUsLinks i {
+    color: #5f5f5f;
+    font-size: 20px;
+}
+
+.contactUsLinks {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.contactUs {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 10px;
+    padding: 30px 10px;
+    gap: 10px;
+}
+
+.contactUsDiv {
+    background-color: #c9c7c7;
+}
+
+.emailInputDiv input {
+    padding: 12px 20px;
+    color: #4c4c4c !important;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px !important;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.emailInputDiv input:focus-within {
+    outline: none;
+}
+
+.contactUsPara {
+    display: flex;
+    align-items: center;
+}
+
+.contactUsPara p {
+    margin-bottom: 0px;
+}
+
+.subscribeDiv button {
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: #5872f7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+}
+
+.subscribeDiv button:hover {
+    background-color: #3657fa;
+}
+
+.contactNoneDiv {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .contactNoneDiv {
+        display: none;
+    }
+}
+
+/* end contactUs */
+
+/* footer */
+.contactUsParent {
+    width: 100%;
+}
+
+.footerLogo img {
+    width: 200px;
+    height: 85px;
+}
+
+.footerLogoContent {
+    margin-top: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: #848bb6;
+    font-size: 18px;
+}
+
+.footerLogoLinks a {
+    background-color: #000000;
+    border-radius: 50%;
+    box-shadow: none;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLogoLinks i {
+    font-size: 18px;
+    color: #DEDEDE;
+}
+
+.footerLogoLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.footerLogoDiv,
+.footerAboutDiv {
+    padding: 20px 10px;
+}
+
+.copyrights a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footerAboutDiv {
+    color: #848bb6;
+}
+
+.footerRow {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footerUl ul {
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.footerUl a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 16px;
+}
+
+.footerUlDiv {
+    padding: 20px;
+}
+
+#footerLIAbout {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #footerLIAbout {
+        display: block;
+    }
+
+    .footerAboutDiv {
+        display: none;
+    }
+
+    .footerUl ul {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .footerRow {
+        flex-direction: column-reverse;
+    }
+
+    .footerLogoDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 300px) {
+    .footerLogo img {
+        width: 150px;
+    }
+
+    .footerLogoLinks {
+        flex-wrap: wrap;
+    }
+}
+
+/* end footer */
