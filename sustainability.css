@@ -306,7 +306,13 @@ body {
 
 @media (max-width: 300px) {
     .coverHeadingH2 h2 {
-        font-size: 20px;
+        font-size: unset;
+    }
+}
+
+@media (max-width: 200px) {
+    .coverHeading h1 {
+        font-size: 24px;
     }
 }
 
@@ -373,9 +379,13 @@ body {
     }
 }
 
-@media (max-width: 220px) {
-    .ginningHeading h2 {
-        font-size: 26px;
+@media (max-width: 249px) {
+    .containerDivHeading h2{
+        font-size: 24px;
+    }
+
+    .containerDivContent {
+        padding: 0 !important;
     }
 }
 
@@ -420,7 +430,9 @@ body {
     background-color: #e3e0cf;
     padding: 80px 20px;
 }
-
+.energyDiv {
+    position: relative;
+}
 .energyHeading h2 {
     text-align: center;
     text-transform: capitalize;
@@ -445,10 +457,122 @@ body {
     width: 25%;
 }
 
-.energyLi1 {
+.energyLi {
     width: 40%;
     margin: auto;
     text-align: center;
     word-wrap: break-word;
+}
+
+.energyLi2 {
+    position: absolute;
+    text-align: left;
+    padding: 0 50px;
+}
+
+.energyLi3 {
+    position: absolute;
+    top: 132vh;
+    text-align: left;
+    padding: 0 50px;
+}
+.energyLi4 {
+    position: absolute;
+    right: 0;
+    padding: 0 50px;
+    text-align: left;
+}
+.energyLi5 {
+    position: absolute;
+    right: 0;
+    top: 130vh;
+    padding: 0 85px;
+    text-align: left;
+}
+
+.energyLi2, .energyLi3 {
+    padding-left: 0;
+}
+.energyLi4, .energyLi5 {
+    padding-right: 0;
+}
+
+.energyLi2 .circleIcon {
+    position: absolute;
+    right: 0;
+    top: 5vh;
+}
+
+.energyLi3 .circleIcon {
+    position: absolute;
+    right: 3vw;
+    bottom: 7vh;
+}
+
+.energyLi4 .circleIcon {
+    position: absolute;
+    top: 4vh;
+    left: 0;
+}
+
+.energyLi5 .circleIcon {
+    position: absolute;
+    top: 0;
+    left: 3vw;
+}
+
+@media (max-width: 879px) {
+    .energyLi2, .energyLi3 {
+        position: unset;
+        text-align: center;
+        padding-right: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .energyLi4, .energyLi5 {
+        position: unset;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .energyLi2 .circleIcon , .energyLi3 .circleIcon {
+        position: unset;
+        text-align: center;
+    }
+
+    .energyLi4 .circleIcon , .energyLi5 .circleIcon {
+        position: unset;
+        text-align: center;
+    }
+
+    .energyImg img {
+        width: 80%;
+    }
+
+    .energyLi {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .energyPara {
+        margin: 0;
+        text-align: left;
+    }
+    .energyLi1 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 250px) {
+    .energyHeading h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 210px) {
+    .energyHeading h2 {
+        font-size: 18px;
+    }
 }
 /* end energy */
